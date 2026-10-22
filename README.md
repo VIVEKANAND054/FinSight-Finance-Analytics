@@ -74,8 +74,6 @@ The dynamic measure selection allows users to explore different financial metric
 
 ## Data Preparation
 
-## Data Preparation
-
 Data preparation was performed in **Power Query** before building the finance analytics dashboard in Power BI.
 
 ### Customer Data
