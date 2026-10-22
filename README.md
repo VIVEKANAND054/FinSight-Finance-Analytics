@@ -104,20 +104,21 @@ The repository separates the original source datasets from the cleaned output da
 
 ## Repository Structure
 
+## Repository Structure
+
+```text
 FinSight-Finance-Analytics/
-│
 ├── Finance_Dashboard.pbix
 ├── Business Requirements.docx
 ├── README.md
-│
 ├── raw_data/
 │   ├── README.md
 │   ├── customers.xlsx
 │   └── finance_transactions.xlsx
-│
 └── cleaned_data/
     ├── README.md
     └── cleaned_cust_trans_data.xlsx
+```
 
 ## How to Explore the Project
 
