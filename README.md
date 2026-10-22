@@ -143,3 +143,13 @@ This project was developed as a finance analytics portfolio project. The dashboa
 ### Overview Page
 
 ![FinSight Finance Analytics Dashboard — Overview](screenshots/dashboard_overview.png)
+
+## Dashboard Preview
+
+### Overview Page
+
+![FinSight Finance Analytics Dashboard — Overview](screenshots/dashboard_overview.png)
+
+### Transactions Page
+
+![FinSight Finance Analytics Dashboard — Transactions](screenshots/dashboard_transactions.png)
