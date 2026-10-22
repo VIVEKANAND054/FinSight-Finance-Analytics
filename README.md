@@ -74,15 +74,28 @@ The dynamic measure selection allows users to explore different financial metric
 
 ## Data Preparation
 
-The project uses raw customer and financial transaction datasets alongside a cleaned dataset prepared for analysis.
+## Data Preparation
 
-Data preparation is an important part of the workflow because consistent, structured data supports reliable calculations and meaningful visualizations. The repository separates the original source files from the cleaned output to make the workflow easier to understand and review.
+Data preparation was performed in **Power Query** before building the finance analytics dashboard in Power BI.
 
-- **Raw data:** Original customer and transaction files.
-- **Cleaned data:** Prepared customer and transaction tables used for analysis.
-- **Power BI report:** Interactive dashboard built from the prepared data.
+### Customer Data
 
-The original files are retained separately from the cleaned output to preserve the distinction between source data and processed data.
+- Assigned appropriate data types to the source columns.
+- Combined the first-name and second-name fields into a single `customer_name` column, separated by a space.
+
+### Financial Transaction Data
+
+- Assigned appropriate data types to the source columns.
+- Removed duplicate records.
+- Trimmed whitespace from the `channel` column.
+- Applied the absolute value function to the `amount` column to make transaction amounts non-negative.
+- Replaced missing `fee_amount` values with a fixed numeric value.
+- Changed the `fee_amount` column to the Currency data type.
+- Converted values in the `currency` column to uppercase for consistent formatting.
+
+### Data Organization
+
+The repository separates the original source datasets from the cleaned output datasets. This makes it easier to review the input data, inspect the prepared data, and understand the workflow used to create the dashboard.
 
 ## Tools and Technologies
 
