@@ -137,3 +137,9 @@ The project also demonstrates practical skills in data preparation, business-ori
 ## Project Status
 
 This project was developed as a finance analytics portfolio project. The dashboard and documentation can be further improved by adding screenshots, documenting the exact data-cleaning steps, and describing any additional analytical measures implemented in the report.
+
+## Dashboard Preview
+
+### Overview Page
+
+![FinSight Finance Analytics Dashboard — Overview](screenshots/dashboard_overview.png)
